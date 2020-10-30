@@ -1,0 +1,12 @@
+#include<iostream.h>
+void main ()
+using namespace std; 
+{
+int Age; 
+cout<<"Enter candidate's age:\n";
+cin>>Age; 
+if (Age >=18)
+cout<<"The candidate is eligible for voting\n";
+else
+cout<<"Candidate is not eligible ";
+}
