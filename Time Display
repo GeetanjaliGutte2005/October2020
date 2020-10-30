@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std; 
+int main ()
+{
+ int h, m, s; 
+int A, B, C; 
+float g, r; 
+cout<<"Hours? :\n";
+cin>>h; 
+cout<<"Minutes? :\n";
+cin>>m; 
+cout<<"Seconds?:\n";
+cin>>s; 
+A=00+h;
+B=00+m;
+g=60*m;
+r=3600*h;
+C=g+r+s;
+cout<<"Time is="<<A<<":"<<B<<":"<<s<<endl; 
+cout<<"Total time in second ="<<C;
+return 0;
+}
