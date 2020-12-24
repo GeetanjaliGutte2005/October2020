@@ -1,0 +1,37 @@
+#include<stdio.h>
+#include<conio.h>
+#include<stdio.h>
+struct employee 
+{
+int Age; 
+int pho;
+int salary; 
+char Name[50];
+};
+void main ()
+{
+struct employee s[20];
+printf("Enter employee data\n");
+for(int i=0;i<20;i++)
+ {
+printf("Enter name:\n");
+scanf("%s",&s[i].Name);
+printf("Enter age:\n");
+scanf("%d",&s[i].Age);
+printf("Enter phone no :\n");
+scanf("%d",&s[i].pho);
+printf("Enter salary:\n");
+scanf("%d",&s[i].salary);
+ }
+printf("You entered employee data as:\n");
+printf("\n================================\n);
+printf("Name\t Age\t Phone no. \t Salary\n);
+for(int i=0;i<20;i++)
+ {
+printf("%s\t",s[i]Name);
+printf("%d\t",s[i].Age);
+printf("%d\t",s[i].pho);
+printf("%d\n",s[i].salary);
+ }
+printf("\n===========================\n);
+}
